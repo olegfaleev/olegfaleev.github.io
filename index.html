@@ -11,305 +11,344 @@
 
 <body>
     <header>
-        <a href="index.html"><img src="#" alt="логотип Celestia"></a>
-        <nav>
-            <a href="#">Главная</a>
-            <a href="#">События</a>
-            <a href="#">Акции</a>
-            <a href="#">Отзывы</a>
-            <a href="#">FAQ</a>
-            <a href="#">Контакты</a>
-        </nav>
-        <ul class="header_ul">
-            <li>
-                <img src="#" alt="ссылка на WhatsApp">
-            </li>
-            <li>
-                <img src="#" alt="ссылка на Telegram">
-            </li>
-        </ul>
-        <a href="tel:+7123363636">(812) 336 36 36</a>
-        <a href="#">Купить билет</a>
-        <button type="button">Открыть дополнительное меню</button>
+        <div class="container flex-header">
+            <a href="index.html"><img src="images/logo.svg" alt="логотип Celestia"></a>
+            <nav>
+                <a href="#">Главная</a>
+                <a href="#">События</a>
+                <a href="#">Акции</a>
+                <a href="#">Отзывы</a>
+                <a href="#">FAQ</a>
+                <a href="#">Контакты</a>
+            </nav>
+            <ul class="header_ul flex-header">
+                <li>
+                    <a href="#"><img src="images/WhatsApp.svg" alt="ссылка на WhatsApp"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/tg.svg" alt="ссылка на Telegram"></a>
+                </li>
+            </ul>
+            <a href="tel:+7123363636" class="sr-only">(812) 336 36 36</a>
+            <a href="#" class="sr-only">Купить билет</a>
+            <button type="button"><svg width="32" height="33" viewBox="0 0 32 33" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="16" cy="16.5" r="16" fill="#324EEA" />
+                    <path d="M9 12.5H23" stroke="white" stroke-linecap="round" />
+                    <path d="M9 16.5H23" stroke="white" stroke-linecap="round" />
+                    <path d="M9 20.5H23" stroke="white" stroke-linecap="round" />
+                </svg>
+            </button>
+        </div>
     </header>
     <main>
         <h1 class="sr-only">Celestia - интерактивный планетарий</h1>
         <section class="about_planetarium">
-            <h2 class="sr-only">Информация о компании и акциях </h2>
-            <div class="promo-first">
-                <p class="slogan">Раскройте тайны звезд с помощью <span>Celestia</span></p>
-                <p>Мы проводим специальные мероприятия, такие как ночи наблюдения за звездами, лекции и многое другое
-                </p>
-                <a href="#">Подробнее</a>
+            <div class="container">
+                <h2 class="sr-only">Информация о компании и акциях </h2>
+                <div class="promo-first">
+                    <p class="slogan">Раскройте тайны звезд с помощью <span>Celestia</span></p>
+                    <p>Мы проводим специальные мероприятия, такие как ночи наблюдения за звездами, лекции и многое
+                        другое
+                    </p>
+                    <a href="#">Подробнее</a>
+                </div>
+                <ul class="promo-second">
+                    <li class="promo-second-elder">
+                        <p class="slogan">20%</p>
+                        <p>скидка пенсионерам</p>
+                        <a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="30" height="30" rx="15" fill="white" />
+                                <path d="M10 10.4055L20 20.4055M20 20.4055L10 20.4055M20 20.4055L20 9.59471"
+                                    stroke="black" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="promo-second-couple">
+                        <p class="slogan">для парочек</p>
+                        <p>ночи наблюдения за звездами</p>
+                        <a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="30" height="30" rx="15" fill="#3805F2" />
+                                <path d="M10 10.4054L20 20.4054M20 20.4054L10 20.4054M20 20.4054L20 9.59458"
+                                    stroke="white" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="promo-second-info">
+                    <li><span>>20</span>
+                        телескопов
+                    </li>
+                    <li><span>>100</span>
+                        программ
+                    </li>
+                    <li><span>>50</span>
+                        залов
+                    </li>
+                </ul>
             </div>
-            <ul class="promo-second">
-                <li class="promo-second-elder">
-                    <p class="slogan">20%</p>
-                    <p>скидка пенсионерам</p>
-                    <a href="#"><img src="#" alt="Переход по ссылке"></a>
-                </li>
-                <li class="promo-second-couple">
-                    <p class="slogan">для парочек</p>
-                    <p>ночи наблюдения за звездами</p>
-                    <a href="#"><img src="#" alt="Переход по ссылке"></a>
-                </li>
-            </ul>
-            <ul class="promo-second-info">
-                <li><span>>20</span>
-                    телескопов
-                </li>
-                <li><span>>100</span>
-                    программ
-                </li>
-                <li><span>>50</span>
-                    залов
-                </li>
-            </ul>
         </section>
         <section class="events">
-            <h2>События</h2>
-            <ul class="types_of_events">
-                <li>
-                    <button>Программы</button>
-                </li>
-                <li>
-                    <button>Мероприятия</button>
-                </li>
-                <li>
-                    <button>Лекции</button>
-                </li>
-            </ul>
-            <ul class="events_blocks">
-                <li class="event_program">
-                    <div class="blocks_img">
-                        <img src="#" alt="Арт звездного неба">
-                        <p class="event_p">7+</p>
-                    </div>
-                    <p>Полнокупольная программа</p>
-                    <h3>Прогулка по звездному небу</h3>
-                    <p>Мы предлагаем вам прогуляться по самым ярким созвездиям северного полушария, насладиться
-                        петербургским звездным небом всех сезонов, полюбоваться Млечным Путем и, конечно, загадать
-                        заветное желание на "падающую" звезду</p>
-                    <div class="benefits">
-                        <img src="#" alt="Миниатюра ребенка">
-                        <p>400 ₽</p>
-                        <img src="#" alt="Миниатюра матери">
-                        <p>600 ₽</p>
-                    </div>
-                    <form action="#">
-                        <label>
-                            <select name="date" id="date" aria-label="Выбрать дату">
-                                <option value="month">
-                                    Выбрать дату
-                                </option>
-                                <option value="month">
-                                    Понедельник
-                                </option>
-                                <option value="month">
-                                    Вторник
-                                </option>
-                                <option value="month">
-                                    Среда
-                                </option>
-                            </select>
-                        </label>
-                        <a href="#">Купить билет</a>
-                    </form>
-                </li>
-                <li class="event_program">
-                    <div class="blocks_img">
-                        <img src="#" alt="Арт солнечной системы">
-                        <p class="event_p">4+</p>
-                    </div>
-                    <p>Детская интерактивная прогоамма</p>
-                    <h3>Путешествие по солнечной системе</h3>
-                    <p>Программа для самых юных посетителей, где можно весело и увлекательно совершить экспедицию на
-                        космическом корабле к удивительным планетам. Узнаем какая из планет самая большая, а какая ближе
-                        всего находится к Солнцу.</p>
-                    <div class="benefits">
-                        <img src="#" alt="Миниатюра ребенка">
-                        <p>400 ₽</p>
-                        <img src="#" alt="Миниатюра матери">
-                        <p>600 ₽</p>
-                    </div>
-                    <form action="#">
-                        <label>
-                            <select name="date2" id="date2" aria-label="Выбрать дату">
-                                <option value="month">
-                                    Выбрать дату
-                                </option>
-                                <option value="month">
-                                    Понедельник
-                                </option>
-                                <option value="month">
-                                    Вторник
-                                </option>
-                                <option value="month">
-                                    Среда
-                                </option>
-                            </select>
-                        </label>
-                        <a href="#">Купить билет</a>
-                    </form>
-                </li>
-                <li class="event_program">
-                    <div class="blocks_img">
-                        <img src="#" alt="Арт космических гор и планет">
-                        <p class="event_p">10+</p>
-                    </div>
-                    <p>Полнокупольная программа</p>
-                    <h3>Тёмная астрономия</h3>
-                    <p>До появления науки как таковой, мы обращались к мифам.На программе «Мифы и легенды звёздного
-                        неба» мы узнаем, как люди древности использовали мифологическое мышление в попытках понять,
-                        каково место человека во Вселенной...</p>
-                    <div class="benefits">
-                        <img src="#" alt="Миниатюра ребенка">
-                        <p>400 ₽</p>
-                        <img src="#" alt="Миниатюра матери">
-                        <p>600 ₽</p>
-                    </div>
-                    <form action="#">
-                        <label>
-                            <select name="date3" id="date3" aria-label="Выбрать дату">
-                                <option value="month">
-                                    Выбрать дату
-                                </option>
-                                <option value="month">
-                                    Понедельник
-                                </option>
-                                <option value="month">
-                                    Вторник
-                                </option>
-                                <option value="month">
-                                    Среда
-                                </option>
-                            </select>
-                        </label>
-                        <a href="#">Купить билет</a>
-                    </form>
-                </li>
-            </ul>
-            <button type="button">Показать еще</button>
+            <div class="container">
+                <h2>События</h2>
+                <ul class="types_of_events">
+                    <li>
+                        <button>Программы</button>
+                    </li>
+                    <li>
+                        <button>Мероприятия</button>
+                    </li>
+                    <li>
+                        <button>Лекции</button>
+                    </li>
+                </ul>
+                <ul class="events_blocks">
+                    <li class="event_program">
+                        <div class="blocks_img">
+                            <img src="images/Firefly_Space.jpg" alt="Арт звездного неба">
+                            <p class="event_p">7+</p>
+                        </div>
+                        <p>Полнокупольная программа</p>
+                        <h3>Прогулка по звездному небу</h3>
+                        <p>Мы предлагаем вам прогуляться по самым ярким созвездиям северного полушария, насладиться
+                            петербургским звездным небом всех сезонов, полюбоваться Млечным Путем и, конечно, загадать
+                            заветное желание на "падающую" звезду</p>
+                        <div class="benefits">
+                            <img src="#" alt="Миниатюра ребенка">
+                            <p>400 ₽</p>
+                            <img src="#" alt="Миниатюра матери">
+                            <p>600 ₽</p>
+                        </div>
+                        <form action="#">
+                            <label>
+                                <select name="date" id="date" aria-label="Выбрать дату">
+                                    <option value="month">
+                                        Выбрать дату
+                                    </option>
+                                    <option value="month">
+                                        Понедельник
+                                    </option>
+                                    <option value="month">
+                                        Вторник
+                                    </option>
+                                    <option value="month">
+                                        Среда
+                                    </option>
+                                </select>
+                            </label>
+                            <a href="#">Купить билет</a>
+                        </form>
+                    </li>
+                    <li class="event_program">
+                        <div class="blocks_img">
+                            <img src="#" alt="Арт солнечной системы">
+                            <p class="event_p">4+</p>
+                        </div>
+                        <p>Детская интерактивная прогоамма</p>
+                        <h3>Путешествие по солнечной системе</h3>
+                        <p>Программа для самых юных посетителей, где можно весело и увлекательно совершить экспедицию на
+                            космическом корабле к удивительным планетам. Узнаем какая из планет самая большая, а какая
+                            ближе
+                            всего находится к Солнцу.</p>
+                        <div class="benefits">
+                            <img src="#" alt="Миниатюра ребенка">
+                            <p>400 ₽</p>
+                            <img src="#" alt="Миниатюра матери">
+                            <p>600 ₽</p>
+                        </div>
+                        <form action="#">
+                            <label>
+                                <select name="date2" id="date2" aria-label="Выбрать дату">
+                                    <option value="month">
+                                        Выбрать дату
+                                    </option>
+                                    <option value="month">
+                                        Понедельник
+                                    </option>
+                                    <option value="month">
+                                        Вторник
+                                    </option>
+                                    <option value="month">
+                                        Среда
+                                    </option>
+                                </select>
+                            </label>
+                            <a href="#">Купить билет</a>
+                        </form>
+                    </li>
+                    <li class="event_program">
+                        <div class="blocks_img">
+                            <img src="#" alt="Арт космических гор и планет">
+                            <p class="event_p">10+</p>
+                        </div>
+                        <p>Полнокупольная программа</p>
+                        <h3>Тёмная астрономия</h3>
+                        <p>До появления науки как таковой, мы обращались к мифам.На программе «Мифы и легенды звёздного
+                            неба» мы узнаем, как люди древности использовали мифологическое мышление в попытках понять,
+                            каково место человека во Вселенной...</p>
+                        <div class="benefits">
+                            <img src="#" alt="Миниатюра ребенка">
+                            <p>400 ₽</p>
+                            <img src="#" alt="Миниатюра матери">
+                            <p>600 ₽</p>
+                        </div>
+                        <form action="#">
+                            <label>
+                                <select name="date3" id="date3" aria-label="Выбрать дату">
+                                    <option value="month">
+                                        Выбрать дату
+                                    </option>
+                                    <option value="month">
+                                        Понедельник
+                                    </option>
+                                    <option value="month">
+                                        Вторник
+                                    </option>
+                                    <option value="month">
+                                        Среда
+                                    </option>
+                                </select>
+                            </label>
+                            <a href="#">Купить билет</a>
+                        </form>
+                    </li>
+                </ul>
+                <button type="button">Показать еще</button>
+            </div>
         </section>
         <section class="sales">
-            <h2>Акции и скидки</h2>
-            <ul>
-                <li>
-                    <img src="#" alt="Пенсионеры в планетарии">
-                    <div class="sales-info">
-                        <h3>Cкидки для пенсионеров</h3>
-                        <p>Все пенсионеры получат 20% скидку на билет при посещении планетария</p>
-                        <a href="#">Узнать подробнее</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="#" alt="Торжественный стол ко дню рождения">
-                    <div class="sales-info">
-                        <h3>Пакет ко дню рождения</h3>
-                        <p>В свой день рождения посетители получат экскурсию по планетарию</p>
-                        <a href="#">Узнать подробнее</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="#" alt="Вся семья в планетрии">
-                    <div class="sales-info">
-                        <h3>Акция "День семьи"</h3>
-                        <p>В воскресенье семьи с двумя детьми получают карту звездного неба</p>
-                        <a href="#">Узнать подробнее</a>
-                    </div>
-                </li>
-            </ul>
-            <button><img src="#" alt="стрелка влево"></button>
-            <button><img src="#" alt="стрелка вправо"></button>
+            <div class="container">
+                <h2>Акции и скидки</h2>
+                <ul>
+                    <li>
+                        <img src="#" alt="Пенсионеры в планетарии">
+                        <div class="sales-info">
+                            <h3>Cкидки для пенсионеров</h3>
+                            <p>Все пенсионеры получат 20% скидку на билет при посещении планетария</p>
+                            <a href="#">Узнать подробнее</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="#" alt="Торжественный стол ко дню рождения">
+                        <div class="sales-info">
+                            <h3>Пакет ко дню рождения</h3>
+                            <p>В свой день рождения посетители получат экскурсию по планетарию</p>
+                            <a href="#">Узнать подробнее</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="#" alt="Вся семья в планетрии">
+                        <div class="sales-info">
+                            <h3>Акция "День семьи"</h3>
+                            <p>В воскресенье семьи с двумя детьми получают карту звездного неба</p>
+                            <a href="#">Узнать подробнее</a>
+                        </div>
+                    </li>
+                </ul>
+                <button><img src="#" alt="стрелка влево"></button>
+                <button><img src="#" alt="стрелка вправо"></button>
+            </div>
         </section>
         <section class="reviews">
-            <h2>Отзывы и отметки</h2>
-            <ul class="reviews_items">
-                <li>
-                    <img src="#" alt="avatar">
-                </li>
-                <li>
-                    <figure>
+            <div class="container">
+                <h2>Отзывы и отметки</h2>
+                <ul class="reviews_items">
+                    <li>
                         <img src="#" alt="avatar">
-                        <figcaption>
-                            <p>Михаил П.</p>
-                            <p>Фрилансер</p>
-                        </figcaption>
-                    </figure>
-                    <p>Виды из телескопа были невероятными, а викторины для детей были веселыми и интересными.</p>
-                    <p>Я настоятельно рекомендую планетарий всем, кто хочет почувствовать незабываемое впечатление и
-                        познать немного про нашу вселенную!</p>
-                </li>
-                <li>
-                    <img src="#" alt="avatar">
-                </li>
-            </ul>
-            <button><img src="#" alt="стрелка влево"></button>
-            <button><img src="#" alt="стрелка вправо"></button>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="#" alt="avatar">
+                            <figcaption>
+                                <p>Михаил П.</p>
+                                <p>Фрилансер</p>
+                            </figcaption>
+                        </figure>
+                        <p>Виды из телескопа были невероятными, а викторины для детей были веселыми и интересными.</p>
+                        <p>Я настоятельно рекомендую планетарий всем, кто хочет почувствовать незабываемое впечатление и
+                            познать немного про нашу вселенную!</p>
+                    </li>
+                    <li>
+                        <img src="#" alt="avatar">
+                    </li>
+                </ul>
+                <button><img src="#" alt="стрелка влево"></button>
+                <button><img src="#" alt="стрелка вправо"></button>
+            </div>
         </section>
         <section class="questions">
-            <h2>Часто задаваемые вопросы</h2>
-            <ul class="questions-items">
-                <li>
-                    <details>
-                        <summary><span>Какие выставки и события, посвященные космосу, проходят в планетарии?</span>
-                            <button type="button">+</button>
-                        </summary>
-                        <p>Выставка фотографий и изображений космических объектов, интерактивные демонстрации о нашей
-                            Солнечной системе, путешествиях по галактикам и другим небесным телам. Также проводятся
-                            лекции и семинары о космической науке и астрономии, а иногда даже организуются ночные
-                            наблюдения за звездами.</p>
-                    </details>
-                </li>
-                <li>
-                    <details>
-                        <summary><span>Какие возможности есть для детей на выставках в планетарии?</span>
-                            <button type="button">+</button>
-                        </summary>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus beatae quasi ipsa
-                            soluta, at eveniet, quis impedit ad quos saepe eius officiis porro. Blanditiis hic est,
-                            aliquam quisquam quia harum</p>
-                    </details>
-                </li>
-                <li>
-                    <details>
-                        <summary><span>Какова стоимость посещения выставок и событий в планетарии?</span>
-                            <button type="button">+</button>
-                        </summary>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus beatae quasi ipsa
-                            soluta, at eveniet, quis impedit ad quos saepe eius officiis porro. Blanditiis hic est,
-                            aliquam quisquam quia harum</p>
-                    </details>
-                </li>
-            </ul>
-            <button type="button">Показать еще</button>
+            <div class="container">
+                <h2>Часто задаваемые вопросы</h2>
+                <ul class="questions-items">
+                    <li>
+                        <details>
+                            <summary><span>Какие выставки и события, посвященные космосу, проходят в планетарии?</span>
+                                <button type="button">+</button>
+                            </summary>
+                            <p>Выставка фотографий и изображений космических объектов, интерактивные демонстрации о
+                                нашей
+                                Солнечной системе, путешествиях по галактикам и другим небесным телам. Также проводятся
+                                лекции и семинары о космической науке и астрономии, а иногда даже организуются ночные
+                                наблюдения за звездами.</p>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary><span>Какие возможности есть для детей на выставках в планетарии?</span>
+                                <button type="button">+</button>
+                            </summary>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus beatae quasi ipsa
+                                soluta, at eveniet, quis impedit ad quos saepe eius officiis porro. Blanditiis hic est,
+                                aliquam quisquam quia harum</p>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary><span>Какова стоимость посещения выставок и событий в планетарии?</span>
+                                <button type="button">+</button>
+                            </summary>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus beatae quasi ipsa
+                                soluta, at eveniet, quis impedit ad quos saepe eius officiis porro. Blanditiis hic est,
+                                aliquam quisquam quia harum</p>
+                        </details>
+                    </li>
+                </ul>
+                <button type="button">Показать еще</button>
+            </div>
         </section>
         <section class="booking">
-            <h2>Ваш билет в космос — быстрая запись на экскурсию</h2>
-            <img src="#" alt="миниатюра космонавтов">
-            <p>Запишитесь на экскурсию в планетарий. Просто укажите ваше имя, электронную почту и дату, и мы свяжемся с
-                вами для подтверждения</p>
-            <form action="#">
-                <label>
-                    <input type="text" name="name" placeholder="Введите ваше имя">
-                </label>
-                <label>
-                    <input type="tel" name="tel" placeholder="Номер телефона">
-                </label>
-                <label>
-                    <select name="dates" id="dates">
-                        <option value="Date1">Выберите дату</option>
-                        <option value="Date2">Понедельник</option>
-                        <option value="Date3">Вторник</option>
-                    </select>
-                </label>
-                <button type="submit">Отправить</button>
-            </form>
+            <div class="container">
+                <h2>Ваш билет в космос — быстрая запись на экскурсию</h2>
+                <img src="#" alt="миниатюра космонавтов">
+                <p>Запишитесь на экскурсию в планетарий. Просто укажите ваше имя, электронную почту и дату, и мы
+                    свяжемся с
+                    вами для подтверждения</p>
+                <form action="#">
+                    <label>
+                        <input type="text" name="name" placeholder="Введите ваше имя">
+                    </label>
+                    <label>
+                        <input type="tel" name="tel" placeholder="Номер телефона">
+                    </label>
+                    <label>
+                        <select name="dates" id="dates">
+                            <option value="Date1">Выберите дату</option>
+                            <option value="Date2">Понедельник</option>
+                            <option value="Date3">Вторник</option>
+                        </select>
+                    </label>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
-        <h2>Как нас найти?</h2>
-        <img src="#" alt="Карта">
+        <div class="container">
+            <h2>Как нас найти?</h2>
+            <img src="#" alt="Карта">
+        </div>
     </footer>
 </body>
 
