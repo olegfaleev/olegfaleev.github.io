@@ -8,6 +8,12 @@
     src: url(/fonts/SofiaSans-VariableFont_wght.ttf) format('truetype');
 }
 
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
 body {
     font-family: 'SofiSans Regular', sans-serif;
     font-weight: 300;
@@ -57,7 +63,7 @@ body {
 }
 
 .container_main {
-    margin: 32px auto 0 auto;
+    margin: 32px auto 16px auto;
 }
 
 .container_main h2 {
@@ -65,8 +71,6 @@ body {
     font-weight: 350;
     text-align: center;
     line-height: 32px;
-    padding: 0;
-    margin: 0;
 }
 
 .container_main p {
@@ -178,7 +182,7 @@ input[type="tel"]::placeholder {
 }
 
 /* Desktop */
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     body {
         max-width: 1440px;
         background-color: #372549;
