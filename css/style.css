@@ -203,6 +203,20 @@ input[type="tel"]:focus {
         margin: 0 auto;
     }
 
+    .container-header {
+        background-color: #1A1423;
+        height: 48px;
+    }
+
+    .header {
+        height: 48px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
     .header-list {
         display: none;
     }
