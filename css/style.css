@@ -83,7 +83,8 @@ body {
 .info-flex_container {
     height: 198px;
     width: 304px;
-    margin: 0 auto; /* надо в Desktop*/
+    margin: 0 auto;
+    /* надо в Desktop*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -177,6 +178,12 @@ input[type="tel"]::placeholder {
     font-weight: 500;
 }
 
+input[type="tel"]:focus {
+    text-align: center;
+    color: #1A1423;
+    font-weight: 500;
+}
+
 .sr-only {
     display: none;
 }
@@ -192,13 +199,63 @@ input[type="tel"]::placeholder {
         max-width: 1040px;
         margin: 0 auto;
     }
+
+    .header-list {
+        display: none;
+    }
+
+    .header-logo {
+        order: 1;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        gap: 32px;
+        list-style: none;
+    }
+
+    .menu li,
+    a {
+        font-family: 'SofiSans Regular', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #FFFF;
+        text-decoration: none;
+    }
+
     .container_main p {
         width: 514px;
         margin: 16px auto 16px auto;
     }
+
     .info-flex_container {
         flex-direction: row;
         width: 689px;
         height: 90px;
+    }
+
+    .container-footer {
+        max-width: 1040px;
+
+    }
+
+    .callback-flex_container {
+        flex-wrap: nowrap;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+        height: 76px;
+        width: 688px;
+        margin: 0 auto;
+    }
+
+    .callback-btn {
+        width: 215px;
     }
 }
