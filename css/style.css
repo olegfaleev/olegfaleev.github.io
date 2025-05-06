@@ -192,12 +192,10 @@ input[type="tel"]:focus {
 }
 
 /* Desktop */
-@media (min-width: 992px) {
+@media (min-width: 992px), (orientation: landscape) {
     body {
         max-width: 1440px;
         background-color: #372549;
-        width: 100%;
-        overflow-x: hidden;
     }
 
     .container {
