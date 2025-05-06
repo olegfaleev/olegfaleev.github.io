@@ -176,11 +176,10 @@ input {
 }
 
 input[type="tel"]::placeholder {
-    height: 40px;
     text-align: center;
     color: #1A1423;
     font-weight: 500;
-    line-height: 30px;
+    /* line-height: 30px; */
 }
 
 input[type="tel"]:focus {
@@ -275,8 +274,6 @@ input[type="tel"]:focus {
     }
 
     .callback-flex_item {
-        align-content: center;
-        /* justify-self: center; */
         padding: 0;
         margin: 0;
     }
