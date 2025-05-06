@@ -192,7 +192,8 @@ input[type="tel"]:focus {
 }
 
 /* Desktop */
-@media (min-width: 992px), (orientation: landscape) {
+@media (min-width: 992px),
+(orientation: landscape) {
     body {
         max-width: 1440px;
         background-color: #372549;
