@@ -288,6 +288,7 @@ input[type="tel"]:focus {
 
     .callback-flex_container input {
         width: 268px;
+        text-align: center;
     }
 
     .callback-btn {
