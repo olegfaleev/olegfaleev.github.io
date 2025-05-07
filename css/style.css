@@ -241,21 +241,9 @@ input[type="tel"]:active {
         align-items: center;
     }
 
-    /* .header-list {
-        order: 1;
-    } */
-
     .header-btn {
         display: none;
     }
-
-    /* .header-logo {
-        order: 1;
-        align-self: center;
-        justify-content: center;
-        align-content: center;
-    } */
-
 
     .menu {
         display: flex;
