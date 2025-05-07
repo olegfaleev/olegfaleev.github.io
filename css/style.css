@@ -38,6 +38,13 @@ body {
     box-sizing: border-box;
 }
 
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+}
+
 .header-btn {
     background-color: #1A1423;
     border: none;
@@ -52,6 +59,11 @@ body {
     padding: 0;
     margin: 0;
     justify-content: space-between;
+}
+
+
+.header-list img {
+    vertical-align: middle;
 }
 
 .header-logo_img {
@@ -220,13 +232,30 @@ input[type="tel"]:active {
         box-sizing: border-box;
     }
 
-    .header-list {
+    .header-block {
+        display: flex;
+        width: 80px;
+        order: 1;
+        gap: 24px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* .header-list {
+        order: 1;
+    } */
+
+    .header-btn {
         display: none;
     }
 
-    .header-logo {
+    /* .header-logo {
         order: 1;
-    }
+        align-self: center;
+        justify-content: center;
+        align-content: center;
+    } */
+
 
     .menu {
         display: flex;

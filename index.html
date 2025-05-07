@@ -13,17 +13,19 @@
     <header>
         <div class="container-header">
             <div class="container header">
-                <ul class="header-list">
-                    <li><button class="header-btn" type="button">
-                            <img src="img/menu.svg" alt="Бургер-меню">
-                        </button>
-                    </li>
-                    <li>
-                        <a href="#"><img src="img/login.svg" alt=""></a>
-                    </li>
-                </ul>
-                <a href="index.html" class="header-logo"><img class="header-logo_img" src="img/logo.svg"
-                        alt="Логотип сайта"></a>
+                <div class="header-block">
+                    <ul class="header-list">
+                        <li><button class="header-btn" type="button">
+                                <img src="img/menu.svg" alt="Бургер-меню">
+                            </button>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/login.svg" alt="Иконка входа"></a>
+                        </li>
+                    </ul>
+                    <a href="index.html" class="header-logo"><img class="header-logo_img" src="img/logo.svg"
+                            alt="Логотип сайта"></a>
+                </div>
                 <nav class="menu">
                     <ul>
                         <li><a href="#">Products</a></li>
@@ -77,7 +79,7 @@
     </main>
     <footer>
         <div class="container-footer">
-            <form class="callback-flex_container" action="#">
+            <form class="callback-flex_container" method="post" action="https://formtester.goodbytes.be/post.php">
                 <label for="phone">Телефон для обратной связи</label>
                 <input class="callback-flex_item" id="phone" type="tel" name="tel" placeholder="+7(999) 999-99-99">
                 <button class="callback-btn callback-flex_item" type="submit">Заказать звонок
